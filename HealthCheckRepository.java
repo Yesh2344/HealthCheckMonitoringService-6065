@@ -1,4 +1,5 @@
 package com.example.healthcheckmonitoringservice.repository;
+// small cleanup
 
 import com.example.healthcheckmonitoringservice.model.HealthCheck;
 import org.springframework.data.jpa.repository.JpaRepository;
