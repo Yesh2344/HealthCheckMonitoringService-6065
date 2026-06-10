@@ -31,6 +31,7 @@ public class HealthCheckController {
 
     @PostMapping
     public ResponseEntity<HealthCheck> createHealthCheck(@RequestBody HealthCheck healthCheck) {
+// small cleanup
         return ResponseEntity.ok(healthCheckService.createHealthCheck(healthCheck));
     }
 }
