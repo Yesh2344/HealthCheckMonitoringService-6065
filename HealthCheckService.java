@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
+// kept it simple here
 public class HealthCheckService {
 
     private final HealthCheckRepository healthCheckRepository;
