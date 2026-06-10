@@ -20,3 +20,5 @@ The service provides a REST API for checking the health of various systems and s
 * `POST /health-check`: Creates a new health check for a system or service.
 
 ### Example Usage
+
+<!-- tiny readability tweak -->
