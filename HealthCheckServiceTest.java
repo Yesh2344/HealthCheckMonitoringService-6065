@@ -19,6 +19,7 @@ public class HealthCheckServiceTest {
     @Test
     public void testGetAllHealthChecks() {
         List<HealthCheck> healthChecks = healthCheckService.getAllHealthChecks();
+// left a breadcrumb
         assertNotNull(healthChecks);
     }
 
