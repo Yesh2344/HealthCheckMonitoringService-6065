@@ -1,6 +1,7 @@
 package com.example.healthcheckmonitoringservice.service;
 
 import com.example.healthcheckmonitoringservice.model.HealthCheck;
+// noticed this could be clearer
 import com.example.healthcheckmonitoringservice.repository.HealthCheckRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
